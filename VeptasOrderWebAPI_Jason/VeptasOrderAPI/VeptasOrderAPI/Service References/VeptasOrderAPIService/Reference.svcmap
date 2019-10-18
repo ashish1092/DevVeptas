@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cb24940d-0781-4a69-a940-89e862175daf" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://testintg.veptas.com/VeptasIntegratorService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="VeptasIntegratorService.xsd" MetadataType="Schema" ID="495d3c60-59fe-433b-9aa6-3e8a758555a3" SourceId="1" SourceUrl="https://testintg.veptas.com/VeptasIntegratorService.svc?xsd=xsd2" />
+    <MetadataFile FileName="VeptasIntegratorService1.xsd" MetadataType="Schema" ID="9c1f8069-3b09-4088-9f9c-ef2556b806ce" SourceId="1" SourceUrl="https://testintg.veptas.com/VeptasIntegratorService.svc?xsd=xsd0" />
+    <MetadataFile FileName="VeptasIntegratorService.wsdl" MetadataType="Wsdl" ID="3daa05be-2eb9-4ebf-b868-d8122770efb8" SourceId="1" SourceUrl="https://testintg.veptas.com/VeptasIntegratorService.svc?wsdl" />
+    <MetadataFile FileName="VeptasIntegratorService2.xsd" MetadataType="Schema" ID="df0d7a99-56df-4f9c-976a-c24dfb105ff1" SourceId="1" SourceUrl="https://testintg.veptas.com/VeptasIntegratorService.svc?xsd=xsd1" />
+    <MetadataFile FileName="VeptasIntegratorService.disco" MetadataType="Disco" ID="1ee8e4a7-62fa-4fda-afeb-04e27e1fb51e" SourceId="1" SourceUrl="https://testintg.veptas.com/VeptasIntegratorService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
